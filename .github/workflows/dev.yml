@@ -13,6 +13,8 @@ jobs:
         uses: actions/setup-node@v4
       - name: 'Install Salesforce CLI'
         run: npm install @salesforce/cli --global
+      - name: 'Display sfdx version'
+        run: sf --version
       - name: 'Create auth file from secret'
         run: echo "${{secrets.AUTHFILE}}" > ./authFile.json
       - name: 'Authenticate'
