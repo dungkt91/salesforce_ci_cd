@@ -16,4 +16,4 @@ jobs:
       - name: 'Create auth file from secret'
         run: echo ${{secrets.AUTHFILE}} > ./authFile.json
       - name: 'Authenticate'
-        run: sf org login sfdx-url --sfdx-url-file ./authFile.json
+        run: sf org login sfdx-url -f ./authFile.json
