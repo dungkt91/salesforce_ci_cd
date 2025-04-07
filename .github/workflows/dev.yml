@@ -14,6 +14,6 @@ jobs:
       - name: 'Install Salesforce CLI'
         run: npm install @salesforce/cli --global
       - name: 'Create auth file from secret'
-        run: echo "${{ secrets.AUTHFILE }}" > sf_auth.json
+        run: echo "${{ secrets.AUTHFILE }}" > authFile.json
       - name: 'Authenticate'
         run: sf org login sfdx-url --sfdx-url-file authFile.json
