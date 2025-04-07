@@ -1,0 +1,17 @@
+{
+  "status": 0,
+  "result": {
+    "id": "00D0o000001RfifEAC",
+    "apiVersion": "63.0",
+    "accessToken": "00D0o000001Rfif!ARAAQB_9baebUo2ly7ATKSGt7W7Y1ZLconAj6JBe2vVUE7UOi9r22PStS3o815a1HpRivLnsoSqHWjBmLa64nE1HdZn185sW",
+    "instanceUrl": "https://vandungktvn-dev-ed.my.salesforce.com",
+    "username": "vandungktvn@gmail.com",
+    "clientId": "PlatformCLI",
+    "connectedStatus": "Connected",
+    "sfdxAuthUrl": "force://PlatformCLI::5Aep861ARUdJp8j3X3T6W2SNbmTLeGotWghjxH3IJ5GhPUO7.f5tHp.Q.6RSPiETwC._Df9qi7uHuBYS4SQtjgK@vandungktvn-dev-ed.my.salesforce.com",
+    "alias": "vandungktvn-dev-hub"
+  },
+  "warnings": [
+    "This command will expose sensitive information that allows for subsequent activity using your current authenticated session.\nSharing this information is equivalent to logging someone in under the current credential, resulting in unintended access and escalation of privilege.\nFor additional information, please review the authorization section of the https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_auth_web_flow.htm."
+  ]
+}
